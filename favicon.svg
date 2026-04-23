@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3D8EF8"/>
+      <stop offset="100%" stop-color="#7B5CF8"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00E87A"/>
+      <stop offset="100%" stop-color="#00C853"/>
+    </linearGradient>
+  </defs>
+  <!-- Chat bubble body -->
+  <rect x="2" y="3" width="24" height="18" rx="5" fill="url(#g1)"/>
+  <!-- Chat bubble tail -->
+  <path d="M7 21 L4 27 L13 22" fill="url(#g1)"/>
+  <!-- Shield body -->
+  <path d="M16 7.5 L20.5 9.5 L20.5 14.5 Q16 17 11.5 14.5 L11.5 9.5Z" fill="rgba(255,255,255,0.92)"/>
+  <!-- Shield green check -->
+  <path d="M13.5 12.5 L15.2 14.2 L18.5 10.5" stroke="url(#g2)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Green online dot -->
+  <circle cx="26" cy="6" r="4" fill="#00E87A" stroke="#070B18" stroke-width="1.5"/>
+</svg>
